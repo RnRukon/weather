@@ -21,6 +21,7 @@ const submitBtn = document.getElementById('submit-btn').addEventListener('click'
     <div style="height:50vh" class=" d-flex justify-content-center align-items-center">
       <div class=" bg-danger rounded-3">
           <div class="card-body ">
+          <img class=" w-25" src="./img/imojie.png" alt="">
             <p class="card-text text-white">Please enter a country or city name</p>
          </div>
     </div>
