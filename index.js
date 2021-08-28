@@ -14,6 +14,7 @@ const cityWeather = data => {
     const country = data.location.country;
     const tem = data.current.temp_c;
     const description = data.current.condition.text;
+    const time = data.location.localtime;
 
     const iconContainer = document.getElementById('icon');
     iconContainer.textContent = "";
@@ -26,6 +27,7 @@ const cityWeather = data => {
     document.getElementById('city').innerText = cityName + "-" + country;
     document.getElementById('temp').innerText = tem;
     document.getElementById('description').innerText = description;
+    document.getElementById('time').innerText = time;
 
 
 }
